@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1{
+    padding-bottom:70px; 
+    padding-left: 120px;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.workout{
+    background:#f9c74f ;
+    padding: 30px 90px;
+    border-radius: 8px;
+    width:600px;
+    margin-left:380px;
+}
+
+#workoutPlanContainer {
+    margin-left:380px;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    }
+    .as{
+        display:none;
+    }
+
+@media screen and (min-width:768px) and (max-width:1028px){
+    .workout{
+    background:#f9c74f ;
+    padding: 30px 90px;
+    border-radius: 8px;
+    width:600px;
+    margin-left:150px;
+}
+
+#workoutPlanContainer {
+    margin-left:100px;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    }
+
+    .as{
+        display:none;
+    }
+    }
+
+    @media screen and (max-width: 514px) {
+.ho{
+  margin-top: -70px;
+}
+.he{
+  display: none;
+}
+
+.container{
+ display:none;
+}
+
+.fg{
+  display:block;
+}
+.workout{
+    background:#f9c74f ;
+    padding: 30px 90px;
+    border-radius: 8px;
+    width:300px;
+    margin-left:0px;
+}
+
+h1{
+    margin-left:-150px;
+    margin-right: -150px;
+}
+
+.kj{
+    margin-right:-200px;
+    padding-right: -100px;
+    margin-left:-150px;
+}
+
+#workoutPlanContainer {
+    margin-left:-100px;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    }
+
+    .as{
+        display:flex;
+    }
+
+}
